@@ -17,4 +17,4 @@ const novoUser = new User('Beatriz', 'b@b.com', '2024-01-04')
 // console.log(novoUser);
 // console.log(novoUser.exibirInfos());
 
-console.log(User.prototype.isPrototypeOf(novoUser));
+// console.log(User.prototype.isPrototypeOf(novoUser));
