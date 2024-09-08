@@ -9,9 +9,6 @@ export default class Admin extends User {
     return `curso ${nomeCurso} criado com ${qtdVagas} vagas.`
   }
 
-  exibeNome() {
-    return `${this.#nome}`
-  }
 }
 
 // const novoAdmin = new Admin("Elara", "e@e.com", "2024-01-05")
