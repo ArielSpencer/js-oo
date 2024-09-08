@@ -5,10 +5,10 @@ export default class Admin extends User {
     super(nome, email, nascimento, role, ativo)
   }
 
-  exibirInfos() {
-    const infos = super.exibirInfos()
-    return `admin: ${infos}`
-  }
+  // exibirInfos() {
+  //   const infos = super.exibirInfos()
+  //   return `admin: ${infos}`
+  // }
 
   criarCurso(nomeCurso, qtdVagas) {
     return `curso ${nomeCurso} criado com ${qtdVagas} vagas.`
@@ -16,8 +16,4 @@ export default class Admin extends User {
 
 }
 
-// const novoAdmin = new Admin("Elara", "e@e.com", "2024-01-05")
-
-// console.log(novoAdmin.exibirInfos());
-// console.log(novoAdmin.exibeNome());
 // console.log(novoAdmin.criarCurso('ADS', 35));
